@@ -1,4 +1,4 @@
-package cz.vsb.p4.testapp;
+package cz.vsb.p4.testapp.tests;
 
 /**
  * Created by ruz76 on 6.10.2016.
