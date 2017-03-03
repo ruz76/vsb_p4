@@ -24,7 +24,7 @@ public class NetClientPost {
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/json");
 
-            String input = "{ \"firstName\" : \"Pepa\", \"lastName\" : \"Ruzicka\" }";
+            String input = "{ \"firstName\" : \"Pepa\", \"lastName\" : \"Ruzicka_" + System.currentTimeMillis() + "\" }";
             //String input = "{\"qty\":100,\"name\":\"iPad 4\"}";
 
             OutputStream os = conn.getOutputStream();
